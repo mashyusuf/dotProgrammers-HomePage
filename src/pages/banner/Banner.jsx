@@ -10,10 +10,10 @@ import star from '../../assets/extrude-group.png';
 
 export default function Banner() {
   return (
-    <div className="relative bg-white shadow-lg p-6 md:p-10 lg:p-16 flex  md:flex-row items-center justify-between overflow-visible">
+    <div className="relative bg-white mt-10 mb-10  rounded-b-3xl container mx-auto shadow-xl p-6 md:p-10 lg:p-16 flex  md:flex-row items-center justify-between overflow-visible">
       
       {/* Text Section */}
-      <div className="text-center md:text-left max-w-lg mb-8 md:mb-0 md:mr-12">
+      <div className="text-center  md:text-left max-w-lg mb-8 md:mb-0 md:mr-12">
         <h1 className="text-2xl md:text-4xl text-black lg:text-6xl font-bold leading-tight">
           Your Trusted<br />
           <span className="text-black">Partner in</span><br />
